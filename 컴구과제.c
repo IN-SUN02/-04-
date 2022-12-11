@@ -22,7 +22,6 @@ int time_count;
 struct in_cache* ip;
 struct da_cache* dp;
 
-void simulation(int c_size, int b_size, int assoc);
 void read_data(int addr, int c_size, int b_size, int assoc);
 void write_data(int addr, int c_size, int b_size, int assoc);
 
